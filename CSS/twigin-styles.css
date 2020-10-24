@@ -3,9 +3,17 @@ body {
 }
 
 .twiginLogo {
-  position: relative;
 
-  width: 150px;
-  height: 75px;
+
   /* background-size: auto; */
 }
+
+#title {
+  background-color: darkgrey;
+}
+
+/* .meetTwigin {
+  position: relative;
+  margin-top: 50px;
+
+} */
