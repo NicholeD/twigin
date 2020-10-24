@@ -1,5 +1,5 @@
 body {
-
+  font-family: "Montserrat";
 }
 
 .container-fluid {
@@ -19,5 +19,18 @@ body {
 
 .italic {
   font-style: italic;
-  font-weight: 200;
+  font-weight: 600;
+  color: #d5500f;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
 }
