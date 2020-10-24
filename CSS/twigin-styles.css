@@ -3,15 +3,21 @@ body {
 }
 
 .container-fluid {
-  padding: 3% 15%; 
+  padding: 3% 15%;
 }
 
 #title {
-  background-color: darkgrey;
+  background-color: #ffa62b;
 }
 
 #title h1 {
-  font-style: "Montserrat-Black 900";
+  font-style: "Montserrat-Black";
+  font-weight: 900;
   font-size: 3rem;
   line-height: 1.5;
+}
+
+.italic {
+  font-style: italic;
+  font-weight: 200;
 }
