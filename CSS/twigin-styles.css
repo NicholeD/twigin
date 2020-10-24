@@ -2,18 +2,16 @@ body {
 
 }
 
-.twiginLogo {
-
-
-  /* background-size: auto; */
+.container-fluid {
+  padding: 3% 15%;
 }
 
 #title {
   background-color: darkgrey;
 }
 
-/* .meetTwigin {
-  position: relative;
-  margin-top: 50px;
-
-} */
+#title h1 {
+  font-style: "Montserrat-Black 900";
+  font-size: 3rem;
+  line-height: 1.5;
+}
