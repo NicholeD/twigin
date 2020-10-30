@@ -68,13 +68,22 @@ body {
 
 /* Features Section */
 
-#feature {
+.row {
+  text-align: center;
+  margin: 75px;
+}
 
+p.fa-icon {
+  color: #aa3a3a;
+  font-size: 3em;
+}
+
+.featureDesc {
+  color: gray;
 }
 
 .featureName {
   font-family: "Montserrat";
   font-weight: bold;
   font-size: 1.5rem;
-
 }
