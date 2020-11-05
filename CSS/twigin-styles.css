@@ -62,27 +62,32 @@ body {
   width: 65%;
   margin-top: 10px;
   margin-left: 10px;
-  /* border-radius: 8px; */
-  /* transform: rotate(15deg); */
 }
 
 /* Features Section */
 
-.row {
+#feature {
+  padding: 7% 15%;
+}
+
+.feature-box {
   text-align: center;
-  margin: 75px;
+  padding: 5%;
 }
 
-p.fa-icon {
+.icon {
   color: #aa3a3a;
-  font-size: 3em;
 }
 
-.featureDesc {
-  color: gray;
+p.fa-icon:hover {
+  color: #f5b461;
 }
 
-.featureName {
+p {
+  color: #8f8f8f;
+}
+
+h3 {
   font-family: "Montserrat";
   font-weight: bold;
   font-size: 1.5rem;
