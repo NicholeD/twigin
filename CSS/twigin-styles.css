@@ -147,20 +147,22 @@ h3 {
   color: #ffa62b;
 }
 
-#download {
+/* CTA Section */
+
+#cta {
   background-color: #f5b461;
   text-align: center;
   height: 450px;
 }
 
-#download p {
+#cta p {
   color: black;
   font-size: 4rem;
   font-weight: 700;
   padding-top: 100px;
 }
 
-#download .btn {
+#cta .btn {
   margin-top: 50px;
 }
 
