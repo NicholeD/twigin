@@ -2,30 +2,29 @@ body {
   font-family: "Montserrat";
 }
 
-.container-fluid {
-  padding: 3% 15% 7%;
+h1, h3, h4, h5, h6 {
+  font-weight: bold;
 }
 
-#title {
-  background-color: #ffa62b;
-
+p {
+  color: #8f8f8f;
 }
 
-#title h1 {
+/* Headings */
+.big-heading {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.featureName {
+  font-size: 1.5rem;
+}
+
+.main-title {
   font-style: "Montserrat-Black";
   font-weight: 900;
   font-size: 3rem;
   line-height: 1.5;
-}
-
-h2 {
-  font-family: "Montserrat"
-  font-weight: 900;
-  font-size: 3rem;
-}
-
-.subtitle {
-  font-weight: 700;
 }
 
 .italic {
@@ -34,8 +33,20 @@ h2 {
   color: #d5500f;
 }
 
+.cta-heading {
+  color: black;
+  font-size: 4rem;
+  font-weight: 600;
+}
 
-/* Navigation Bar */
+/* Title Section */
+#title {
+  background-color: #ffa62b;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
 
 .navbar {
   padding: 0 0 2.5rem;
@@ -57,13 +68,9 @@ h2 {
   font-weight: 400;
 }
 
-/* Download Buttons */
-
 .download-button {
   margin: 5% 3% 5% 0;
 }
-
-/* Title Logo */
 
 .title-logo {
   width: 85%;
@@ -74,7 +81,6 @@ h2 {
 }
 
 /* Features Section */
-
 #feature {
   padding: 7% 15%;
   background-color: #fff;
@@ -96,18 +102,7 @@ h2 {
   color: #f5b461;
 }
 
-p {
-  color: #8f8f8f;
-}
-
-h3 {
-  font-family: "Montserrat";
-  font-weight: bold;
-  font-size: 1.5rem;
-}
-
 /* Testimonial Section */
-
 #testimonials {
   text-align: center;
   background-color: #f5b461;
@@ -134,7 +129,6 @@ h3 {
 }
 
 /* Pricing Cards */
-
 #pricing {
   padding: 100px;
   text-align: center;
@@ -143,29 +137,20 @@ h3 {
 .pricing-column {
   padding: 3% 2%;
 }
+
 .button:hover {
   color: #ffa62b;
 }
 
 /* CTA Section */
-
 #cta {
+  padding: 7% 15%;
   background-color: #f5b461;
   text-align: center;
   height: 450px;
 }
 
-#cta p {
-  color: black;
-  font-size: 4rem;
-  font-weight: 700;
-  padding-top: 100px;
-}
-
-#cta .btn {
-  margin: 20px 10px;
-}
-
+/* Footer Section */
 #footer {
   text-align: center;
   background-color: #fff;
@@ -176,11 +161,8 @@ h3 {
   padding: 8px;
 }
 
-
 /* Tablet & Mobile size */
-
 @media (max-width: 1028px) {
-
   #title {
     text-align: center;
   }
