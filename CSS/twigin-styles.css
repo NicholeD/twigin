@@ -163,7 +163,7 @@ h3 {
 }
 
 #cta .btn {
-  margin-top: 50px;
+  margin: 20px 10px;
 }
 
 #footer {
@@ -172,7 +172,7 @@ h3 {
   margin-top: 100px;
 }
 
-#footer i {
+.social-icon {
   padding: 8px;
 }
 
